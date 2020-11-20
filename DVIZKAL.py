@@ -5,6 +5,5 @@ def dvizenye(prost, pves):
     print(sk)
     dvizenye = 0.035 * pves + (sk ** 2 / prost) * 0.029 * pves
     dvizenye = dvizenye * vrema
-    print(dvizenye)
     return dvizenye
 

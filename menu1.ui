@@ -63,22 +63,19 @@ p, li { white-space: pre-wrap; }
      </item>
     </layout>
    </widget>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>585</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <widget class="QMenu" name="menuhelp">
-    <property name="title">
-     <string>help</string>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>191</x>
+      <y>290</y>
+      <width>171</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Перевод калорий в граммы</string>
     </property>
    </widget>
-   <addaction name="menuhelp"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>

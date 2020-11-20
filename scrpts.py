@@ -1,9 +1,9 @@
-def dvizenye(prost, pves):
-    vrast = int(input('ввидите растояние'))
-    vrema = int(input('ввидите время'))
+def dvizenye(vrast, vrema, prost, pves):
     sk = vrast // vrema
-    print(sk)
     dvizenye = 0.035 * pves + (sk ** 2 / prost) * 0.029 * pves
     dvizenye = dvizenye * vrema
-    print(dvizenye)
     return dvizenye
+
+def velosiped(vrema, puls, pves):
+    vel = 0.014 * pves * vrema * (0.12 * puls - 7)
+    return vel

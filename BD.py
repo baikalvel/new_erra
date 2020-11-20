@@ -1,4 +1,3 @@
-import numpy as np
 import pandas as pd
 
 df = pd.read_csv('C:/Users/baikalvel/Desktop/PROJECT/DATASET.csv', error_bad_lines=False, sep=';')
@@ -19,7 +18,3 @@ for i in k_df['Углеводов']:
     ugl.append(i)
 for i in k_df['Жиров']:
     zir.append(i)
-print(zir, ugl, name, kal, bel)
-for i in zir:
-    i = i / 100
-    zir
